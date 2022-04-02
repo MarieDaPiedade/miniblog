@@ -1,0 +1,45 @@
+.ens-com {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 48%;
+    margin: auto;
+    margin-top: 10px;
+}
+.header-com {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    margin-bottom: 5px;
+}
+.icon1, .icon2 {
+    width: 15px;
+    height: auto;
+    cursor: pointer;
+}
+/* .icon1 {
+    margin-left: auto;
+} */
+.icon2 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.dt {
+ align-self: flex-end;
+ font-size: 0.8rem;
+ margin-right: 20px;
+}
+.name {
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin-right: auto;
+}
+.com {
+    align-self: flex-start;
+    background-color: rgba(211, 222, 220, 0.6);
+    border-radius: 25px;
+    width: 100%;
+    padding: 13px;
+}

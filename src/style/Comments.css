@@ -1,0 +1,30 @@
+.addComment form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: auto;
+    border-radius: 25px;
+}
+.addComment form:focus-within {
+    outline: 2px solid rgb(115, 121, 212);
+}
+.arrondi-gris {
+    flex: 1;
+    padding: 13px;
+    border-radius: 25px 0px 0px 25px;
+    border : none;
+    background-color: rgba(211, 222, 220, 0.6);
+}
+.arrondi-gris:focus {
+    outline: none;
+}
+
+.publier {
+    border: none;
+    border-radius: 0px 25px 25px 0px;
+    background-color: rgba(211, 222, 220, 0.6);
+    padding: 13px 30px;
+    cursor: pointer;
+}

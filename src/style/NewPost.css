@@ -1,0 +1,43 @@
+#new-post {
+    width: 50%;
+    margin: 50px auto;
+}
+
+#new-post > form {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding-bottom: 50px;
+}
+
+#new-post hr {
+    width: 50%;
+    margin: auto;
+    background-color: grey;
+    height: 1px;
+    border: none;
+}
+
+#new-post > form > label:first-child {
+    align-self: flex-start;
+    width: 75%;
+}
+.submit-post {
+    background-color: rgba(211, 222, 220, 0.6);
+    align-self: end;
+    width: 20%;
+    padding: 13px;
+    border: none;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+#new-post input.arrondi-gris {
+    border-radius : 25px;
+    width: 75%;
+    margin-left: 10px;
+}
+.title-post {
+    margin-bottom: 40px;
+    align-items: center;
+}
