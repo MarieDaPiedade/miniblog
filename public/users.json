@@ -1,0 +1,17 @@
+[
+    {
+        "id" : 1,
+        "pseudo" : "Gaspar",
+        "role" : 1
+    },
+    {
+        "id" : 2,
+        "pseudo" : "Fabrice",
+        "role" : 2
+    },
+    {
+        "id" : 3,
+        "pseudo" : "Christophe31",
+        "role" : 2
+    }
+]

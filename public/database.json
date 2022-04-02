@@ -1,0 +1,85 @@
+[
+    {
+        "id": 1,
+        "title": "coucou",
+        "content": "coucou !",
+        "created_at": "2021-05-30 12:30:05",
+        "is_moderated": 0,
+        "user_id": 3,
+        "author" : "Christophe31",
+        "comments": [
+            {
+                "id": 1,
+                "content": "pas coucou",
+                "created_at": "2021-05-31 23:22:48",
+                "is_moderated": 0,
+                "user_id": 3,
+                "author" : "Christophe31"
+            },
+            {
+                "id": 2,
+                "content": "ceci est un commentaire",
+                "created_at": "2021-05-31 23:25:48",
+                "is_moderated": 0,
+                "user_id": 2,
+                "author" : "Gaspar"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "title": "salut",
+        "content": "lorem <b>ipsum</b> blablabla",
+        "created_at": "2021-04-30 12:30:05",
+        "is_moderated": 0,
+        "user_id": 1,
+        "author" : "Fabrice",
+        "comments": [
+            {
+                "id": 3,
+                "content": "pas coucou",
+                "created_at": "2021-05-31 23:22:48",
+                "is_moderated": 1,
+                "user_id": 2,
+                "author" : "Gaspar"
+            },
+            {
+                "id": 4,
+                "content": "l'informatique c'est fantastique",
+                "created_at": "2022-05-31 23:22:48",
+                "is_moderated": 0,
+                "user_id": 1,
+                "author" : "Fabrice"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "title": "bonjour",
+        "content": "VSCODE c'est mieux que Eclipse <img src=\"https://interactive-examples.mdn.mozilla.net/media/cc0-images/grapefruit-slice-332-332.jpg\" />",
+        "created_at": "2021-07-30 15:30:05",
+        "is_moderated": 0,
+        "user_id": 2,
+        "author" : "Gaspar",
+        "comments": []
+    },
+    {
+        "id": 4,
+        "title": "modéré",
+        "content": "ceci est un post modéré",
+        "created_at": "2021-04-30 15:30:05",
+        "is_moderated": 1,
+        "user_id": 3,
+        "author" : "Christophe31",
+        "comments": [
+            {
+                "id": 5,
+                "content": "pas modéré",
+                "created_at": "2022-08-31 23:22:48",
+                "is_moderated": 0,
+                "user_id": 3,
+                "author" : "Christophe31"
+            }
+        ]
+    }
+]
